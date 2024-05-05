@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- icon -->
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <!-- swiper -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <!-- boostrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <title>Fast Food</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .swiper {
+      width: 100%;
+      height: 100%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <a href="#" class="logo"><img src="images/logo.jpg" alt=""></a>
+
+    <ul class="navmenu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Shop</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Page</a></li>
+      <li><a href="#">Docs</a></li>
+    </ul>
+
+    <div class="nav-icon">
+      <a href="#" id="product-card"></a><i class='bx bx-cart' ></i>
+      <a href="#"></a><i class='bx bx-user'></i>
+      <a href="indexTrangDangKi.html"><button class="login-btn">Sign Out</button></a>
+  </header>
+
+  <section class="main-home">
+    <div class="main-text">
+      <h5>5-star Restaurant</h5>
+      <h1>Best Services<br>Enthusiasm waiter</h1>
+
+      <a href="#" class="main-btn">Overview now <i class='bx bx-right-arrow-alt'></i></a>
+    </div>
+  </section>
+    <!-- Carousel -->
+      <section id="tranding">
+        <div class="container">
+          <h3 class="text-center section-subheading">- popular Delivery -</h3>
+          <h1 class="text-center section-heading">Tranding food</h1>
+        </div>
+        <div class="container">
+          <div class="swiper tranding-slider">
+            <div class="swiper-wrapper">
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="images/image.jpg" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  <h1 class="food-price">$20</h1>
+                  <div class="tranding-slide-content-bottom">
+                    <h2 class="food-name">
+                      Special Pizza
+                    </h2>
+                    <h3 class="food-rating">
+                      <span>4.5</span>
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="images/image1.jpg" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  <h1 class="food-price">$20</h1>
+                  <div class="tranding-slide-content-bottom">
+                    <h2 class="food-name">
+                      Meat Ball
+                    </h2>
+                    <h3 class="food-rating">
+                      <span>4.5</span>
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="images/image2.jpg" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  <h1 class="food-price">$40</h1>
+                  <div class="tranding-slide-content-bottom">
+                    <h2 class="food-name">
+                      Burger
+                    </h2>
+                    <h3 class="food-rating">
+                      <span>4.5</span>
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="images/image3.jpg" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  <h1 class="food-price">$15</h1>
+                  <div class="tranding-slide-content-bottom">
+                    <h2 class="food-name">
+                      Frish Curry
+                    </h2>
+                    <h3 class="food-rating">
+                      <span>4.5</span>
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="images/image4.jpg" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  <h1 class="food-price">$15</h1>
+                  <div class="tranding-slide-content-bottom">
+                    <h2 class="food-name">
+                      Pane Cake
+                    </h2>
+                    <h3 class="food-rating">
+                      <span>4.5</span>
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="images/image5.jpg" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  <h1 class="food-price">$8</h1>
+                  <div class="tranding-slide-content-bottom">
+                    <h2 class="food-name">
+                      Straw Cake
+                    </h2>
+                    <h3 class="food-rating">
+                      <span>4.5</span>
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+              <!-- Slide-start -->
+              <div class="swiper-slide tranding-slide">
+                <div class="tranding-slide-img">
+                  <img src="images/image7.jpg" alt="Tranding">
+                </div>
+                <div class="tranding-slide-content">
+                  <h1 class="food-price">$8</h1>
+                  <div class="tranding-slide-content-bottom">
+                    <h2 class="food-name">
+                      Straw Cake
+                    </h2>
+                    <h3 class="food-rating">
+                      <span>4.5</span>
+                      <div class="rating">
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                        <ion-icon name="star"></ion-icon>
+                      </div>
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <!-- Slide-end -->
+            </div>
+            <div class="tranding-slider-control">
+              <div class="swiper-button-prev slider-arrow">
+                <ion-icon name="arrow-back-outline"></ion-icon>
+              </div>
+              <div class="swiper-button-next slider-arrow">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+  
+          </div>
+        </div>
+      </section>
+
+    <!-- Card -->
+    <div class="card1" id="container-card">
+  
+    </div>
+      
+    <!-- Footer -->
+  <!-- Client-Review-Section -->
+  <section class="client-reviews">
+    <div class="reviews">
+      <h3>Client Reviews</h3>
+      <img src="images/phongcubu.jpg" alt="">
+      <p>đẹp trai</p>
+
+      <h2>Lương Vĩnh Phong</h2>
+      <p>Website Designer</p>
+    </div>
+  </section>
+
+  <!-- contact section -->
+  <section class="contact">
+    <div class="contact-info">
+      <div class="first-info">
+        <img src="/img/Logo YUI.png" alt="">
+        <h3>Address:</h3><p>105 Lũy Bán Bích</p>
+        <h3>Phone:</h3><p>0936923108</p>
+        <h3>Contact:</h3><p>Lương Vĩnh Phong(fb)</p>
+
+        <div class="social-icon">
+          <a href="#"><i class='bx bxl-facebook'></i></a>
+          <a href="#"><i class='bx bxl-instagram'></i></a>
+          <a href="#"><i class='bx bxl-twitch'></i></a>
+          <a href="#"><i class='bx bxl-discord-alt'></i></a>
+          <a href="#"><i class='bx bxl-youtube' ></i></a>
+        </div>
+      </div>
+      <div class="second-info">
+        <h4>Support</h4>
+        <p>Contact us</p>
+        <p>About page</p>
+        <p>Size Guide</p>
+        <p>Shopping & Returns</p>
+        <p>Privacy</p>
+      </div>
+
+      <div class="third-info">
+        <h4>Shop</h4>
+        <p>Men's Shopping</p>
+        <p>Woman's Shopping</p>
+        <p>Kid's Shopping</p>
+        <p>Furniture</p>
+        <p>Discount</p>
+      </div>
+
+      <div class="fourth-info">
+        <h4>Company</h4>
+        <p>About</p>
+        <p>Blog</p>
+        <p>Affiliate</p>
+      </div>
+    </div>
+  </section>
+
+<div class="end-text">
+  <p>Copyright © @2024. All Rights. Designed By Lương Vĩnh Phong</p>
+</div>
+
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      <!-- Initialize Swiper -->
+      <script>
+        var swiper = new Swiper(".mySwiper", {
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          },
+        });
+      </script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+    <!-- boostrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script src="scroll.js"></script>
+        
+</body>
+<script src="html.js"></script>
+</html>
